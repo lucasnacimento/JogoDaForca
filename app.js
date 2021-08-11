@@ -13,8 +13,6 @@ let desenho;
 
 let faixa = document.getElementById("faixaOpacity");
 
-let letrasErradas = [];
-
 let index;
 
 let palavraAtual = '';
@@ -92,7 +90,6 @@ function tentarLetra(letra){
         atualizarPalavra(letra);
     }else{
         --tentativas;
-        letrasErradas.push(letra);
         textErradas.innerHTML += letra+',';
         desenharBoneco();
     }
