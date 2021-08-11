@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Game</title>
+    
+    <div id = "container1">
+        <div id = "descricao">
+            <h1 id = "titulo">JOGO DA FORCA</h1>
+            <div id = "linha"></div>
+            <p id="subtitulo">O jogo da forca é um jogo em que o jogador tem que acertar qual é a palavra proposta</p>
+        </div>
+    </div>
+
+    <div id="game">
+        <img src="imagens/Forca.png" alt="">
+    </div>
+
+    <div id="faixaOpacity"></div>
+
+    <div id="faixaInvisivel">
+        <h1 id="categoria"></h1>
+        <h1 id="palavra"></h1>
+        <h1 id="erradas"></h1>    
+        <button id="btnewgame" onclick = "newGame()"> * NOVO JOGO * </button>
+    </div>
+    
+    
+    <img id = "boneco" src="" alt="">
+    
+    <footer id="txtfooter">
+        <p>© Lucas do Nascimento Lopes</p>
+    </footer>
+</head>
+<body>
+    <script src="app.js"></script>
+</body>
+</html>
